@@ -621,7 +621,7 @@ pointer-events: initial;
 
 .modal {
 border-radius: 4px;
-background-color: var(--DAIRY, #FCFCFC);
+background-color:#FCFCFC;
 width: 408px;
 min-height: 584px;
 min-width: 408px;
@@ -640,7 +640,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: absolute;
 top: 24px;
 right: 24px;
-background-color: var(--accent);
 width: 24px;
 height: 24px;
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -654,7 +653,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 
 
 .modal-p {
-color: var(--NAVY-BLUE, #2E2F42);
+color:  #2E2F42;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -664,17 +663,82 @@ margin-bottom: 16px;
 }
 
 
+.form-label {
+color:  #8E8F99;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.02em;
+display: block;
+margin-bottom: 4px;
+}
+
+
+.form-input {
+width: 360px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+}
+
+
+.form-input:hover,:focus {
+
+border: 1px solid var(--IRIS, #4D5AE5);
+}
+
+
+
+.text-input-label {
+color: var(--LIGHT-SLATE, #8E8F99);
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.02em;
+}
+
+
+.textarea-text:focus,:hover {
+border: 1px solid var(--IRIS, 4D5AE5);
+}
+
+
+
+
+.textarea-text {
+color: rgba(46, 47, 66, 0.40);
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.02em;
+resize: none;
+width: 100%;
+border-radius: 4px;
+border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
+outline: transparent;
+}
 
 
 
 
 
 
+.btn-input {
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+
+padding: 16px 32px;
 
 
-
-
-
+color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.footer-btn-input {
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 
 
