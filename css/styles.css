@@ -746,25 +746,22 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 
-.modal-btn:focus,:hover {
+.modal-btn:focus {
 background-color: #404BBF;
 border: none;
 fill: #ffffff;
 }
 
-.modal-btn-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-btn:hover {
+background-color: #404BBF;
+border: none;
+fill: #ffffff;
 }
 
 
-
-.modal-btn-icon:focus,:hover {
-fill: #ffffff;
-
-} 
-
-
-
+.modal-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 .modal-p {
@@ -805,7 +802,14 @@ border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 }
 
 
-.form-input:hover,:focus {
+.form-input:hover {
+border: 1px solid var(--IRIS, #4D5AE5);
+fill: #4D5AE5;
+}
+
+
+
+.form-input:focus {
 border: 1px solid var(--IRIS, #4D5AE5);
 fill: #4D5AE5;
 }
@@ -819,24 +823,26 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon:hover,:focus {
+.form-icon:hover {
+fill: #4D5AE5;
+}
+.form-icon:focus {
 fill: #4D5AE5;
 }
 
 
-
-.form-field:hover,:focus .form-icon {
+/* .form-field:hover {
 fill: #4D5AE5;
+} */
+
+.textarea-text:focus {
+border-color: 1px solid #4D5AE5;
 }
 
 
 
-
-
-.textarea-text:hover,
-:focus {
+.textarea-text:hover {
 border-color: 1px solid  #4D5AE5;
-
 }
 
 
@@ -924,9 +930,14 @@ cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-input:hover,:focus {
+.btn-input:focus {
 border-radius: 4px;
 background: var(--OCEAN, #404BBF);
+}
+
+.btn-input:hover{
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
 }
 
 
