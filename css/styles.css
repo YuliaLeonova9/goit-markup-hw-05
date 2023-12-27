@@ -803,11 +803,11 @@ border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
 
 
 .form-input:hover {
-border-color: 1px solid var(--IRIS, #4D5AE5);
+border-color:  #4D5AE5;
 }
 
 .form-input:focus {
-    border-color: 1px solid var(--IRIS, #4D5AE5);
+    border-color:  #4D5AE5;
 }
 
 .form-input:focus + .form-icon {
@@ -839,13 +839,13 @@ fill: #4D5AE5;
 } */
 
 .textarea-text:focus {
-border-color: 1px solid #4D5AE5;
+border-color:#4D5AE5;
 }
 
 
 
 .textarea-text:hover {
-border-color: 1px solid  #4D5AE5;
+border-color: #4D5AE5;
 }
 
 
