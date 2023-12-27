@@ -707,15 +707,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-div {
- margin-bottom: 8px;
 color: #8E8F99;
 font-size: 12px;
-line-height: 1.16;
-letter-spacing: 0.02em;
+line-height: 1.17;
+letter-spacing: 0.04em;
 display: block;
-margin-bottom: 4px;
+margin-bottom: 8px;
 }
-
+.modal-div-coment {
+    margin-bottom: 16px;
+}
 
 .modal-btn {
 position: absolute;
@@ -822,8 +823,8 @@ margin-bottom: 16px;
 
 .textarea-text:hover,
 :focus {
-border: 1px solid  #4D5AE5;
-border-color: #4D5AE5;
+border-color: 1px solid  #4D5AE5;
+
 }
 
 
