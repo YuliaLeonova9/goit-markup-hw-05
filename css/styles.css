@@ -712,10 +712,19 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 display: block;
-margin-bottom: 4px;
+margin-bottom: 8px;
 }
 .modal-div-coment {
     margin-bottom: 16px;
+}
+
+.modal-lebel {
+color: #8E8F99;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+display: block;
+margin-bottom: 4px;
 }
 
 .modal-btn {
